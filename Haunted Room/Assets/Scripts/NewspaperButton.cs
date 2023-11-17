@@ -5,23 +5,20 @@ using UnityEngine.UI;
 
 public class NewspaperButton : MonoBehaviour
 {
-    GameObject newspaperWhole;
-    Image button;
-
+    public GameObject newspaperWhole;
+    Image x;
     private void Start()
     {
-        button = GameObject.Find("X").GetComponent<Image>();
-
-        newspaperWhole = GameObject.Find("NewspaperWhole");
+        x = GameObject.Find("X").GetComponent<Image>();
     }
     public void Close()
     {
-        button.enabled = false;
+        x.enabled = false;
         newspaperWhole.SetActive(false);
     }
     public void Open()
     {
-        button.enabled = true;
+        x.enabled = true;
         newspaperWhole.SetActive(true);
     }
 

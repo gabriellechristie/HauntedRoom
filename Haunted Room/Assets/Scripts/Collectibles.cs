@@ -34,7 +34,6 @@ public class Collectibles : MonoBehaviour
 		newspaper4 = GameObject.Find("Newspaper4").GetComponent<Image>();
 		button = GameObject.Find("Open").GetComponent<Image>();
 		x = GameObject.Find("X").GetComponent<Image>();
-
 		newspaperWhole = GameObject.Find("NewspaperWhole");
 
 		newspaper1.enabled = false;
@@ -86,10 +85,10 @@ public class Collectibles : MonoBehaviour
 				}
 				if (counter == 4)
 				{
-					animationObj.SetActive(true);
+					//animationObj.SetActive(true);
 					//animation.Play("Newspaper");
-					animationObj.SetActive(false);
-
+					//animationObj.SetActive(false);
+					counter++;
 					x.enabled = true;
 					button.enabled = true;
 					newspaperWhole.SetActive(true);
