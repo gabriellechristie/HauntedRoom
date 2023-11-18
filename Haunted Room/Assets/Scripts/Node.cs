@@ -26,12 +26,14 @@ public class Node : MonoBehaviour
         {
             Manager.ins.currentN.OnLeave();
         }
+
         Manager.ins.currentN = this;
         Manager.ins.rig.Align(cameraPos);
-        if (col != null)
+
+        /*if (col != null)
         {
             col.enabled = false;
-        }
+        }*/
 
         foreach(Node node in reachableN)
         {
