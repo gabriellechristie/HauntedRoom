@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Inspect_Info : MonoBehaviour
-{
-    Image textBox;
-    Text pressE;
-    public Text circleWords;
-    public GameObject circle;
-    
-    // Start is called before the first frame update
+{   
+    public GameObject dialogBox;
+    public Text textFill;
+    public GameObject piano;
+    public GameObject fireplace;
+    public Animator woman;
+    public Animator boy;
+    public GameObject womanStill;
+    public GameObject boyStill;
+    public Animator baby;
+    public GameObject babyStill;
+    public GameObject clock;
+    public GameObject painting;
     void Start()
-    {
-        textBox = GameObject.Find("Text_Box").GetComponent<Image>();
-        pressE = GameObject.Find("Press E").GetComponent<Text>();
-
-        textBox.enabled = false;
-        pressE.enabled = false;
-        circleWords.enabled = false;
+    {       
+        dialogBox.SetActive(false);        
     }
 
     // Update is called once per frame
@@ -28,24 +29,60 @@ public class Inspect_Info : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, 100.0f))
+            if (Physics.Raycast(ray, out hit, 500.0f))
             {
-                if (hit.transform != null && (hit.collider.gameObject == circle))
+                if (hit.transform != null && (hit.collider.gameObject == fireplace))
+                {                   
+                    dialogBox.SetActive(true);
+                    textFill.text = "Approaching the fireplace, you'd expect warmth, but the closer you get, the more it transforms. Flickering flames, eerie and cold, a ghostly chill, the tale unfolds.";
+                }
+                if (hit.transform != null && (hit.collider.gameObject == piano))
+                {                    
+                    dialogBox.SetActive(true);
+                    textFill.text = "No fingers touch, yet melodies of the unseen play, A ghostly pianist, where echoes of silence and music lay";
+                }
+                if (hit.transform != null && (hit.collider.gameObject == clock))
                 {
-                    textBox.enabled = true;
-                    pressE.enabled = true;
-                    circleWords.enabled = true;
-                    circleWords.text = "Lore goes here";
+                    dialogBox.SetActive(true);
+                    textFill.text = "No ticking hands, no pendulum's swing, In the house on Hollow’s street, time holds an eerie, motionless ring.";
+                }
+                if (hit.transform != null && (hit.collider.gameObject == painting))
+                {
+                    dialogBox.SetActive(true);
+                    textFill.text = "The paintings seem to carry life within them, maybe even death. You could’ve sworn some paintings inched closer to you, not the frames, but the subjects themselves";
+                }
+                if (hit.transform != null && (hit.collider.gameObject == womanStill))
+                {
+                    woman.SetBool("IsWomanClicked", true);                   
+                }
+                if (hit.transform != null && (hit.collider.gameObject == babyStill))
+                {
+                    baby.SetBool("IsBabyOn", true);
+                }
+                if (hit.transform != null && (hit.collider.gameObject == boyStill))
+                {
+                    StartCoroutine(DelayAnimation());                    
                 }
             }            
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            woman.SetBool("IsWomanClicked", false);
+            boy.SetBool("IsBoyClicked", false);
+            baby.SetBool("IsBabyOn", false);
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
-            textBox.enabled = false;
-            pressE.enabled = false;
-            circleWords.enabled = false;
+            dialogBox.SetActive(false);
+        }        
+    }
 
-        }
+    IEnumerator DelayAnimation()
+    {
+        yield return new WaitForSeconds(1);
+        boy.SetBool("IsBoyClicked", true);
     }
 }
 

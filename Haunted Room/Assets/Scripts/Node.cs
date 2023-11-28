@@ -35,14 +35,14 @@ public class Node : MonoBehaviour
             col.enabled = false;
         }*/
 
-        foreach(Node node in reachableN)
+        /*foreach(Node node in reachableN)
         {
             if (node.col != null)
             {
                 node.col.enabled = true;
             }
             //node.col.enabled = true;
-        }
+        }*/
     }
     /*
     private void OnMouseDown()
@@ -55,13 +55,13 @@ public class Node : MonoBehaviour
     }*/
     public void OnLeave()
     {
-        foreach (Node node in reachableN)
+        /*foreach (Node node in reachableN)
         {
             if (node.col != null)
             {
                 node.col.enabled = true;
             }
-        }
+        }*/
     }
 
 }

@@ -17,37 +17,40 @@ public class Collectibles : MonoBehaviour
 	public GameObject collectible2;
 	public GameObject collectible3;
 	public GameObject collectible4;
-	private GameObject newspaperWhole;
+	public GameObject notes;
+	//private GameObject newspaperWhole;
 
-	//Animator anim;
-	Animation animation;
-	private GameObject animationObj;
+	public Animator anim;
+	//Animation animation;
+	//private GameObject animationObj;
 
 	//X
 	
 	int counter = 0;
 	void Start()
     {
+		notes.SetActive(false);
 		newspaper1 = GameObject.Find("Newspaper1").GetComponent<Image>();
 		newspaper2 = GameObject.Find("Newspaper2").GetComponent<Image>();
 		newspaper3 = GameObject.Find("Newspaper3").GetComponent<Image>();
 		newspaper4 = GameObject.Find("Newspaper4").GetComponent<Image>();
 		button = GameObject.Find("Open").GetComponent<Image>();
-		x = GameObject.Find("X").GetComponent<Image>();
-		newspaperWhole = GameObject.Find("NewspaperWhole");
+		//x = GameObject.Find("X").GetComponent<Image>();
+		//newspaperWhole = GameObject.Find("NewspaperWhole");
 
 		newspaper1.enabled = false;
 		newspaper2.enabled = false;
 		newspaper3.enabled = false;
 		newspaper4.enabled = false;
 
-		animationObj = GameObject.Find("Animation");
-		animationObj.SetActive(false);
-		animation = gameObject.GetComponent<Animation>();
+		//animationObj = GameObject.Find("Animation");
+		//animationObj.SetActive(false);
+		//animation = gameObject.GetComponent<Animation>();
 
-		x.enabled = false;
+		//x.enabled = false;
 		button.enabled = false;
-		newspaperWhole.SetActive(false);
+
+		//newspaperWhole.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -88,10 +91,12 @@ public class Collectibles : MonoBehaviour
 					//animationObj.SetActive(true);
 					//animation.Play("Newspaper");
 					//animationObj.SetActive(false);
+					notes.SetActive(true);
+					anim.SetBool("IsNoteOn", true);
 					counter++;
-					x.enabled = true;
+					//x.enabled = true;
 					button.enabled = true;
-					newspaperWhole.SetActive(true);
+					//newspaperWhole.SetActive(true);
 				}
 			}
 		}

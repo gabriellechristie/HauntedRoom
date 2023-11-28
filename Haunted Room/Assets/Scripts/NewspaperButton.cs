@@ -5,21 +5,33 @@ using UnityEngine.UI;
 
 public class NewspaperButton : MonoBehaviour
 {
-    public GameObject newspaperWhole;
-    Image x;
+    //public Image newspaperWhole;
+    public GameObject notes;
+    //Image x;
     private void Start()
     {
-        x = GameObject.Find("X").GetComponent<Image>();
+        //newspaperWhole.enabled = false;
+        notes.SetActive(false);
+       // x = GameObject.Find("X").GetComponent<Image>();
     }
-    public void Close()
+    private void Update()
     {
-        x.enabled = false;
-        newspaperWhole.SetActive(false);
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            notes.SetActive(false);
+        }
     }
+    /*public void Close()
+    {
+       // x.enabled = false;
+        notes.SetActive(false);
+        //newspaperWhole.enabled = false;
+    }*/
     public void Open()
     {
-        x.enabled = true;
-        newspaperWhole.SetActive(true);
+        notes.SetActive(true);
+       // x.enabled = true;
+        //newspaperWhole.enabled = true;
     }
 
 }

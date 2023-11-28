@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 762b3e070d1597648a1189257d7aafbb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Painting 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab421bba4d19f164898697fea229475b
+      internalID: -1128518316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a4d329cfb3df488fe7023c23bd0f8
+      internalID: 1936107735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136cb56ee0c79a142ac98e0018f493df
+      internalID: 1517418992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_3
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b7790b025afa640b5c3614957bb898
+      internalID: 156707596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_4
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba29928601eceda479f2f2a91840c3fb
+      internalID: 220990549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_5
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fb8228c9bf7c74e97123d5b6b774dd
+      internalID: -782367666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_6
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fe3a677613523448627b5bc369f85d
+      internalID: -1052633793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_7
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 4096
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a083a74b3abb647a2fec8a2090843c
+      internalID: 1596173404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af1841272cecc45956bc06334a34ab
+      internalID: -420093276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_9
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55c821c682ecb46a33d450284901ae
+      internalID: -1831248272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_10
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a2d9bcc94e4bd4999c9aea46b35f43
+      internalID: 1192499744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_11
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297638da1ef27f449b9df2c344be79e7
+      internalID: -1173241606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_12
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98261ca59d07bb74f876ea9d0c9c2b5b
+      internalID: 1468429271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_13
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a880b8f6756a74d84044c3e57a51e7
+      internalID: 709055685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_14
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fcb4e75b545234481aa000ee393525
+      internalID: -514291369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_15
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 3072
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c7da74d3d2d684482ac995ee734412
+      internalID: -1234128899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8f4c4ca9229094c9a0148f91ef3394
+      internalID: 596166373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a553470a65f65d4c8b132676c8158a9
+      internalID: -609502422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_18
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0caa7fe7f5a694bba0240dad6b50a0
+      internalID: 1887270961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_19
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d32c830aabaf2d40948cd6e982dc6e1
+      internalID: 668504286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_20
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31134f4bb63dfe449a659ddcba6241f
+      internalID: -260998934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_21
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a896b30d6cae3c4f9b827589d08fd3e
+      internalID: -1037750165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_22
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3884e08964fb38341967372f18baa058
+      internalID: -1502703283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_23
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 2048
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca246fa14617f7941bd91149d2989e71
+      internalID: 1896432152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce024d832ceaaf846a6c06ebbd7e8014
+      internalID: 904090715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_25
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6cbcac72fbce643a727a99ebf6d406
+      internalID: -86824990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_26
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f58d19e013d35f4e9611616d8b330e3
+      internalID: -1084660877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_27
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28d223d9e7bc88419a571154020c5e1
+      internalID: 1859239742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_28
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd2002980203c94fb6dae547db7e8e7
+      internalID: 240904567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_29
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa02c2f3489fc54987f468bd3736516
+      internalID: -1841030675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_30
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d94d60cda164b40aa1c6b0f0705afc
+      internalID: 2060747144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_31
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 1024
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a677a9cc6718be4c93e9e383acc18f5
+      internalID: 570932451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4889862ed89e64790a3f8075e3f49f
+      internalID: 693798148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_33
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe97fe299373f743952046ec3bb0ae6
+      internalID: 137241274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_34
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838853c46666a84f920584d6cd33164
+      internalID: 1395331679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_35
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15ce16d3d4f0d842948a21a14e334a8
+      internalID: 352321527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_36
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24168233a66dd843abb48c777874204
+      internalID: -1110225094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_37
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6edbe1e249be64eaaf294636213b25
+      internalID: 653051382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_38
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf738418513f446b32c8e04cb07003
+      internalID: 1785439742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 3_39
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 0
+        width: 710.25
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d535c5b8f0d8644e9945b381c8f84d7
+      internalID: -459302485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 03cb0317952a3384c8728570d6d7509e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Painting 3_0: -1128518316
+      Painting 3_1: 1936107735
+      Painting 3_10: 1192499744
+      Painting 3_11: -1173241606
+      Painting 3_12: 1468429271
+      Painting 3_13: 709055685
+      Painting 3_14: -514291369
+      Painting 3_15: -1234128899
+      Painting 3_16: 596166373
+      Painting 3_17: -609502422
+      Painting 3_18: 1887270961
+      Painting 3_19: 668504286
+      Painting 3_2: 1517418992
+      Painting 3_20: -260998934
+      Painting 3_21: -1037750165
+      Painting 3_22: -1502703283
+      Painting 3_23: 1896432152
+      Painting 3_24: 904090715
+      Painting 3_25: -86824990
+      Painting 3_26: -1084660877
+      Painting 3_27: 1859239742
+      Painting 3_28: 240904567
+      Painting 3_29: -1841030675
+      Painting 3_3: 156707596
+      Painting 3_30: 2060747144
+      Painting 3_31: 570932451
+      Painting 3_32: 693798148
+      Painting 3_33: 137241274
+      Painting 3_34: 1395331679
+      Painting 3_35: 352321527
+      Painting 3_36: -1110225094
+      Painting 3_37: 653051382
+      Painting 3_38: 1785439742
+      Painting 3_39: -459302485
+      Painting 3_4: 220990549
+      Painting 3_5: -782367666
+      Painting 3_6: -1052633793
+      Painting 3_7: 1596173404
+      Painting 3_8: -420093276
+      Painting 3_9: -1831248272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

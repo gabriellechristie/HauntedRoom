@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: a01a30c3e21241a4dbb6dbd39ee7a55c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4fece3d04757d409754909d78fae07
+      internalID: -580675334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c110b9b3f138c249bac26d9a63ca455
+      internalID: 583404810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79847b74a1e7be4abe83372f33fece1
+      internalID: 1657320671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2476263a8eee064cb3a3003e23cdee2
+      internalID: 34010007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625bc794367d6ba4ebfac6256cd74e06
+      internalID: 1183065453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867d209557a659f49b082d571619313e
+      internalID: 593517761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241711a35702f2b4d950046fa7cd2818
+      internalID: 390986012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 4341.6665
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798ea467a7727d8499a80e3355dd5f11
+      internalID: -1311512735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77277adc6e6b7c449b6fdfc7fce41a57
+      internalID: 631062847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd84cc2b144738643bdd30899d1a9ffc
+      internalID: 1364731944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf9de6bf66eeff4e9ca3259ca211c7f
+      internalID: 721992377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00267dcd4fc59bf40a9fd71dcc5b45ce
+      internalID: -315410120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffd8950249afef45a8499651af1c1d5
+      internalID: 33465471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392b6decbfb1626419d67c4792a2b012
+      internalID: -228768000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e143a355ac65f24fa73f97652854c17
+      internalID: -1309105872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 3473.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99fd6faff6825949a71260f81fc314f
+      internalID: -758599420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5d75b382a054d4682d48de47d6a94c
+      internalID: 1471338865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a506c1846eab9442959ebf9fda83450
+      internalID: -1006169073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4fab36595dcb4b81d80d6a87c1ecf
+      internalID: 591607282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b504fd952dd33da45bcb0b4a924faf36
+      internalID: -1161273467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab77e23f2f708c4e9f8067fd27161b8
+      internalID: -1762100626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dfe690f2a4881428f85a809da292f1
+      internalID: 463573799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacbfced7a0a944498e5fb9bb0199c47
+      internalID: -843777195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 2605.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821c0330a052c7b448bb99bad841e199
+      internalID: -424936565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9133038d2acf782489b533b568deadfe
+      internalID: 492235969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa43bb1a24e98046bc929112b205ede
+      internalID: 1628161103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61046864ff5b7684fb1ce0fb7eae75cb
+      internalID: 1712596941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518f97c6a12ca342bca9dfea7c20707
+      internalID: 1908122470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd27e10d8c5434f9abc0f694930285
+      internalID: 1544966385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4076eca46609c1b4eb24ac7c45633a20
+      internalID: -774595120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3665dbf7eed6896418dc5a16c4a8e36a
+      internalID: -806753016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 1737.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9887bb1c9cbb56f49b0858a2c40d5c96
+      internalID: 1981569149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2412eb09d413aa45a86eb8bc45915e9
+      internalID: -1539113305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fed4eb80f5c77448d5234d6c619cd5
+      internalID: 1857163005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe7c94fc6cf18468e8b3fa19863bcf
+      internalID: 1614442591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b81ba848942a45a1d6937d9e4f3ce
+      internalID: -735642267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a362c1f3b848b9c44b5c713c3f01c902
+      internalID: 1950238126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8c35e3c951e8b4bb403ca22e7563c4
+      internalID: 1043539332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ecf8f007417b04f9b8d8a74d076dce
+      internalID: -1473225236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 869.6667
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1955087445a7d364daaa1c330a2afa8a
+      internalID: 886301016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c5bc068cae17c4c9e8268fe95a7ef7
+      internalID: -1869396446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53882e38ed0a5e445949b289b3b933af
+      internalID: 1724545157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf501da0bb6c7d4baa7671d0873d5ec
+      internalID: 2069397128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12b88b07cb56f44aed2eb91f8281ee
+      internalID: 882539687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a80b053dda12984d9ea93ab79fd8d5a
+      internalID: 1919170069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c641dc6e965ab46a0532bf7174282d
+      internalID: -1607379604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e05e9d784e7f654db139ef1942bb168
+      internalID: 2036031343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting 2 Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 1.666687
+        width: 603.875
+        height: 868.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e8f685cbec18b4980360bd0c6e0d42
+      internalID: 342725566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a56607a0b2db0ae47995e31a6cfe7273
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Painting 2 Sprite Sheet_0: -580675334
+      Painting 2 Sprite Sheet_1: 583404810
+      Painting 2 Sprite Sheet_10: 721992377
+      Painting 2 Sprite Sheet_11: -315410120
+      Painting 2 Sprite Sheet_12: 33465471
+      Painting 2 Sprite Sheet_13: -228768000
+      Painting 2 Sprite Sheet_14: -1309105872
+      Painting 2 Sprite Sheet_15: -758599420
+      Painting 2 Sprite Sheet_16: 1471338865
+      Painting 2 Sprite Sheet_17: -1006169073
+      Painting 2 Sprite Sheet_18: 591607282
+      Painting 2 Sprite Sheet_19: -1161273467
+      Painting 2 Sprite Sheet_2: 1657320671
+      Painting 2 Sprite Sheet_20: -1762100626
+      Painting 2 Sprite Sheet_21: 463573799
+      Painting 2 Sprite Sheet_22: -843777195
+      Painting 2 Sprite Sheet_23: -424936565
+      Painting 2 Sprite Sheet_24: 492235969
+      Painting 2 Sprite Sheet_25: 1628161103
+      Painting 2 Sprite Sheet_26: 1712596941
+      Painting 2 Sprite Sheet_27: 1908122470
+      Painting 2 Sprite Sheet_28: 1544966385
+      Painting 2 Sprite Sheet_29: -774595120
+      Painting 2 Sprite Sheet_3: 34010007
+      Painting 2 Sprite Sheet_30: -806753016
+      Painting 2 Sprite Sheet_31: 1981569149
+      Painting 2 Sprite Sheet_32: -1539113305
+      Painting 2 Sprite Sheet_33: 1857163005
+      Painting 2 Sprite Sheet_34: 1614442591
+      Painting 2 Sprite Sheet_35: -735642267
+      Painting 2 Sprite Sheet_36: 1950238126
+      Painting 2 Sprite Sheet_37: 1043539332
+      Painting 2 Sprite Sheet_38: -1473225236
+      Painting 2 Sprite Sheet_39: 886301016
+      Painting 2 Sprite Sheet_4: 1183065453
+      Painting 2 Sprite Sheet_40: -1869396446
+      Painting 2 Sprite Sheet_41: 1724545157
+      Painting 2 Sprite Sheet_42: 2069397128
+      Painting 2 Sprite Sheet_43: 882539687
+      Painting 2 Sprite Sheet_44: 1919170069
+      Painting 2 Sprite Sheet_45: -1607379604
+      Painting 2 Sprite Sheet_46: 2036031343
+      Painting 2 Sprite Sheet_47: 342725566
+      Painting 2 Sprite Sheet_5: 593517761
+      Painting 2 Sprite Sheet_6: 390986012
+      Painting 2 Sprite Sheet_7: -1311512735
+      Painting 2 Sprite Sheet_8: 631062847
+      Painting 2 Sprite Sheet_9: 1364731944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
