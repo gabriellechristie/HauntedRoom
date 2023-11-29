@@ -13,11 +13,18 @@ public class Inspect_Info : MonoBehaviour
     public Animator boy;
     public GameObject womanStill;
     public GameObject boyStill;
+
+    public Animator man;
+    public GameObject manStill;
+    public Animator girl;
+    public GameObject girlStill;
+
     public Animator baby;
     public GameObject babyStill;
     public GameObject clock;
     public GameObject painting;
     public GameObject table;
+
     //audio
     public AudioSource pianoSource;
 
@@ -64,6 +71,17 @@ public class Inspect_Info : MonoBehaviour
                 {
                     woman.SetBool("IsWomanClicked", true);                   
                 }
+
+                if (hit.transform != null && (hit.collider.gameObject == manStill))
+                {
+                    man.SetBool("isMan", true);
+                }
+                if (hit.transform != null && (hit.collider.gameObject == girlStill))
+                {
+                    girl.SetBool("isGirl", true);
+                }
+
+
                 if (hit.transform != null && (hit.collider.gameObject == babyStill))
                 {
                     baby.SetBool("IsBabyOn", true);
@@ -90,6 +108,8 @@ public class Inspect_Info : MonoBehaviour
             pianoSource.Stop();
             phonoAnim.SetBool("isCrankOn", false);
             phonoAnim.SetBool("IsDiskOn", false);
+            man.SetBool("isMan", false);
+            girl.SetBool("isGirl", false);
 
         }
 

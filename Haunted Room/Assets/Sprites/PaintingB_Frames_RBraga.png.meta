@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,1668 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa40b8941215524d929ab7974e19cd4
+      internalID: 718464860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2e5511fddd29946a867e3020d628a9
+      internalID: -1873546163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4753db49e387554ea26ff3e0279c172
+      internalID: -498058372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_3
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eebae23dce627648bd3c4bf1f92ee25
+      internalID: 1998773503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f200e47efa4e10499359dce0e28c337
+      internalID: -873026129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_5
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce248b10ce339cd43b893da87815d240
+      internalID: -1413710848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_6
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5797e67c0aa8f8b408ad732db03fbf1d
+      internalID: -1256301966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_7
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f734ac866adff488efa2680dfb6e26
+      internalID: -1170202836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_8
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4e372df956a3742ad36bc0240c296a
+      internalID: 1830812037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_9
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6789efb9e16724e49898d30eac730c35
+      internalID: 901287071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_10
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570587a496cc96547a302de82ad1e453
+      internalID: -1432967631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_11
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda5053b1969374a9b09e004e040533
+      internalID: -528663595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_12
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf8ad3f7bbf4e44595b9a0170109d63
+      internalID: 1384541008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_13
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd00425854055b74095adfee17d8730f
+      internalID: -890177301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_14
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 4000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f2c9effd1e834ca2b21e11578a148
+      internalID: 564379642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c651144a935b48a3d9ff2249015b7
+      internalID: 674029577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_16
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6371e59a75bb639478177ffbedef6a73
+      internalID: -1477059980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c85e477951f7b408dcdfb6db307b31
+      internalID: 411400988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_18
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7d453fc143de4b846cf2c29afa06d
+      internalID: -1994047615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_19
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345570250406074ca4153eeffd828ce
+      internalID: -150978625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_20
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9e6d6492a768145afed2b293f9d75e
+      internalID: -1197133212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_21
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f7915aa505db6458600646c2740f8a
+      internalID: 1752791402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_22
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fb9eea2bfc04345ae350f713435a9c
+      internalID: -2039592449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_23
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e6826ed3284cf4d9c8896093222b4f
+      internalID: -937017670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_24
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bcca3d98658384da103cb2eb9326b0
+      internalID: 986346700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_25
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407423f1f16c4544f8eed3aebdc084ba
+      internalID: 431957115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_26
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d98483d9f8be440aa1cfc46e854239
+      internalID: 479801004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_27
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cd05ba01eb2b246ae505f6960aa4a6
+      internalID: -1177008434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_28
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e942e27e8be014648bca205b647590b2
+      internalID: -1433247552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_29
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 3000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58dbddd9beb6b1409ffb2fa58c573e6
+      internalID: 1570936066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d538055617458340a4687ab7fc2f824
+      internalID: 32012641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5f1bf8b0550bd4e810e94e67667a43
+      internalID: -1334519291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_32
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015705f1500f6c4eb43c6f94caa6677
+      internalID: -1139757138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_33
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e73fa1698538e46a214ce1a7542796
+      internalID: 1680626188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_34
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d6d78ad9a0c0040846f9316dfbfaa9
+      internalID: 1270229228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_35
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a12dc4059b5b348b01bc1a6b6974e9
+      internalID: -518625944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_36
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61259fb637a66c3498794838ee344428
+      internalID: 1027179886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_37
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4ab199c1df81549bd3e4c842e2786d
+      internalID: 616045801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_38
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30401e63375fb1499e81811f5dffb30
+      internalID: 1034371934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_39
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaad3faf59ad2c54f8aa2ce515157f86
+      internalID: -1087365979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_40
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461b92e4a438721469d4897a48795f37
+      internalID: -903806316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_41
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb623321164a1245970688eb0d6bf90
+      internalID: -1152276742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_42
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792c44e318f61164eba11e072dfef0c7
+      internalID: -1054046018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_43
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b1bd07f1afc72449098757dad6c0b1
+      internalID: 743063373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_44
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 2000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34192bc440f01c448abe1a0782478e16
+      internalID: -2067728565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b30b8ba7549b47b26d9ffba573be7
+      internalID: 435208677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_46
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e3e86825b4484590b2becd41db3a9
+      internalID: -295110886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_47
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b172c7e2bfb7447b233c7cdf4f3e77
+      internalID: 594878502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_48
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e95047fee8c4a4e8dc723764b91f72
+      internalID: -258604176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_49
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba6335798792f04ebf29adc2678c733
+      internalID: -427184272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_50
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c9c673b9cf3a47a3c679fff4ee859
+      internalID: -1644086292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_51
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225d70852f608054585f7f46e2abe427
+      internalID: -680626457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_52
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96095d2c9aa6eea4f8da1acf5d978778
+      internalID: -499513678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_53
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2260694c9487fc4c99173177f0893d7
+      internalID: 2111044219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_54
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5379a41ec81d4693b9468c1e9f87a
+      internalID: -1469564776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_55
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f45ee866fc186b44a4197ac4f7383fa
+      internalID: 811595772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_56
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e643eb78b1875cc408b6f74a6e42bf9e
+      internalID: -1931660685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_57
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31896313ceff25c42a8fa52adeeebe3a
+      internalID: 585139380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_58
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdef96c11ea84b4ca24baa5918fa1ab
+      internalID: 1510439330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_59
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 1000
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b95c2c1c0c6994096766940f3fd858
+      internalID: -829000371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2df109ddaa1e644b1f081d7aeb95fa
+      internalID: 1581479365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_61
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7170c70fef390bf41b440eec75872d1f
+      internalID: -1965833033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_62
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bfd7bd30c487a4586e95cb08df32d6
+      internalID: -1007028874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_63
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e98021303e2a5549b87e3f1f5b95468
+      internalID: -1851407542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_64
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba070363e997d49893369b30374e55
+      internalID: -1714366758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_65
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d39a6c88ab6394c9ea4d687c6284b1
+      internalID: 1435763831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_66
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74edce9800191e54981d34efe5151fed
+      internalID: 1532228864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_67
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22adbdfb7bf73543a7a21b10d62e1ee
+      internalID: 1483173054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_68
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50bf3b3cc146e4bb7a84ddde0f0fa3
+      internalID: 1665220088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_69
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edd01c96bf4ab34abb0fed983460ae9
+      internalID: 204862358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_70
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826af003d0a054f4fb60d20edc989849
+      internalID: 1123259307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_71
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9434f35bb8264094617460f4d75da
+      internalID: -469071752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_72
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2170f14fdfa6841a4921f16d4037f1
+      internalID: 1079590365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_73
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310bc5f0c0cef7c43a5d97ef54abefce
+      internalID: 1464281897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintingB_Frames_RBraga_74
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 0
+        width: 700
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc7a5da4c987424d8c6f13b752ae482
+      internalID: 274760164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eefad82dff873a342ae1f15526266aa2
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PaintingB_Frames_RBraga_0: 718464860
+      PaintingB_Frames_RBraga_1: -1873546163
+      PaintingB_Frames_RBraga_10: -1432967631
+      PaintingB_Frames_RBraga_11: -528663595
+      PaintingB_Frames_RBraga_12: 1384541008
+      PaintingB_Frames_RBraga_13: -890177301
+      PaintingB_Frames_RBraga_14: 564379642
+      PaintingB_Frames_RBraga_15: 674029577
+      PaintingB_Frames_RBraga_16: -1477059980
+      PaintingB_Frames_RBraga_17: 411400988
+      PaintingB_Frames_RBraga_18: -1994047615
+      PaintingB_Frames_RBraga_19: -150978625
+      PaintingB_Frames_RBraga_2: -498058372
+      PaintingB_Frames_RBraga_20: -1197133212
+      PaintingB_Frames_RBraga_21: 1752791402
+      PaintingB_Frames_RBraga_22: -2039592449
+      PaintingB_Frames_RBraga_23: -937017670
+      PaintingB_Frames_RBraga_24: 986346700
+      PaintingB_Frames_RBraga_25: 431957115
+      PaintingB_Frames_RBraga_26: 479801004
+      PaintingB_Frames_RBraga_27: -1177008434
+      PaintingB_Frames_RBraga_28: -1433247552
+      PaintingB_Frames_RBraga_29: 1570936066
+      PaintingB_Frames_RBraga_3: 1998773503
+      PaintingB_Frames_RBraga_30: 32012641
+      PaintingB_Frames_RBraga_31: -1334519291
+      PaintingB_Frames_RBraga_32: -1139757138
+      PaintingB_Frames_RBraga_33: 1680626188
+      PaintingB_Frames_RBraga_34: 1270229228
+      PaintingB_Frames_RBraga_35: -518625944
+      PaintingB_Frames_RBraga_36: 1027179886
+      PaintingB_Frames_RBraga_37: 616045801
+      PaintingB_Frames_RBraga_38: 1034371934
+      PaintingB_Frames_RBraga_39: -1087365979
+      PaintingB_Frames_RBraga_4: -873026129
+      PaintingB_Frames_RBraga_40: -903806316
+      PaintingB_Frames_RBraga_41: -1152276742
+      PaintingB_Frames_RBraga_42: -1054046018
+      PaintingB_Frames_RBraga_43: 743063373
+      PaintingB_Frames_RBraga_44: -2067728565
+      PaintingB_Frames_RBraga_45: 435208677
+      PaintingB_Frames_RBraga_46: -295110886
+      PaintingB_Frames_RBraga_47: 594878502
+      PaintingB_Frames_RBraga_48: -258604176
+      PaintingB_Frames_RBraga_49: -427184272
+      PaintingB_Frames_RBraga_5: -1413710848
+      PaintingB_Frames_RBraga_50: -1644086292
+      PaintingB_Frames_RBraga_51: -680626457
+      PaintingB_Frames_RBraga_52: -499513678
+      PaintingB_Frames_RBraga_53: 2111044219
+      PaintingB_Frames_RBraga_54: -1469564776
+      PaintingB_Frames_RBraga_55: 811595772
+      PaintingB_Frames_RBraga_56: -1931660685
+      PaintingB_Frames_RBraga_57: 585139380
+      PaintingB_Frames_RBraga_58: 1510439330
+      PaintingB_Frames_RBraga_59: -829000371
+      PaintingB_Frames_RBraga_6: -1256301966
+      PaintingB_Frames_RBraga_60: 1581479365
+      PaintingB_Frames_RBraga_61: -1965833033
+      PaintingB_Frames_RBraga_62: -1007028874
+      PaintingB_Frames_RBraga_63: -1851407542
+      PaintingB_Frames_RBraga_64: -1714366758
+      PaintingB_Frames_RBraga_65: 1435763831
+      PaintingB_Frames_RBraga_66: 1532228864
+      PaintingB_Frames_RBraga_67: 1483173054
+      PaintingB_Frames_RBraga_68: 1665220088
+      PaintingB_Frames_RBraga_69: 204862358
+      PaintingB_Frames_RBraga_7: -1170202836
+      PaintingB_Frames_RBraga_70: 1123259307
+      PaintingB_Frames_RBraga_71: -469071752
+      PaintingB_Frames_RBraga_72: 1079590365
+      PaintingB_Frames_RBraga_73: 1464281897
+      PaintingB_Frames_RBraga_74: 274760164
+      PaintingB_Frames_RBraga_8: 1830812037
+      PaintingB_Frames_RBraga_9: 901287071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
