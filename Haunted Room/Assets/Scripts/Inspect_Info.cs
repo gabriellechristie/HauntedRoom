@@ -20,6 +20,8 @@ public class Inspect_Info : MonoBehaviour
     public GameObject table;
     //audio
     public AudioSource pianoSource;
+    public AudioSource gramoCrankSource;
+    public AudioSource gramoSongSource;
 
     //table animation
     public Animator phonoAnim; 
@@ -74,6 +76,7 @@ public class Inspect_Info : MonoBehaviour
                 }
                 if (hit.transform != null && (hit.collider.gameObject == table))
                 {
+                    gramoCrankSource.Play();
                     phonoAnim.SetBool("isCrankOn", true);
                     phonoAnim.SetBool("IsDiskOn", false);
 
@@ -88,6 +91,8 @@ public class Inspect_Info : MonoBehaviour
             boy.SetBool("IsBoyClicked", false);
             baby.SetBool("IsBabyOn", false);
             pianoSource.Stop();
+            gramoCrankSource.Stop();
+            gramoSongSource.Stop();
             phonoAnim.SetBool("isCrankOn", false);
             phonoAnim.SetBool("IsDiskOn", false);
 
@@ -111,11 +116,17 @@ public class Inspect_Info : MonoBehaviour
             phonoAnim.SetBool("isCrankOn", false);
             phonoAnim.SetBool("IsDiskOn", false);
 
+
         }
         else
         {
             yield return new WaitForSeconds(3);
-            phonoAnim.SetBool("IsDiskOn", true);
+
+            if (phonoAnim.GetBool("isCrankOn"))
+            {
+                phonoAnim.SetBool("IsDiskOn", true);
+                gramoSongSource.Play();
+            }
         }
     }
 }
