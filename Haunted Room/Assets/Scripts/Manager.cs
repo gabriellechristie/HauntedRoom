@@ -11,14 +11,17 @@ public class Manager : MonoBehaviour
 
     public CamRig rig;
 
+    private AudioSource audioSource;
     private void Awake()
     {
         ins = this;
+        audioSource = GameObject.Find("CameraSwoosh").GetComponent<AudioSource>();
     }
     private void Update()
     {
         if (Input.GetMouseButtonDown(1) && currentN.GetComponent<Prop>() != null)
         {
+            audioSource.Play();
             currentN.GetComponent<Prop>().location.OnArrival();
         }
     }

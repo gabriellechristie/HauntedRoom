@@ -18,14 +18,12 @@ public class Collectibles : MonoBehaviour
 	public GameObject collectible3;
 	public GameObject collectible4;
 	public GameObject notes;
-	//private GameObject newspaperWhole;
 
 	public Animator anim;
-	//Animation animation;
-	//private GameObject animationObj;
-
-	//X
 	
+	public AudioSource audioSource;
+
+
 	int counter = 0;
 	void Start()
     {
@@ -35,22 +33,15 @@ public class Collectibles : MonoBehaviour
 		newspaper3 = GameObject.Find("Newspaper3").GetComponent<Image>();
 		newspaper4 = GameObject.Find("Newspaper4").GetComponent<Image>();
 		button = GameObject.Find("Open").GetComponent<Image>();
-		//x = GameObject.Find("X").GetComponent<Image>();
-		//newspaperWhole = GameObject.Find("NewspaperWhole");
-
+		
 		newspaper1.enabled = false;
 		newspaper2.enabled = false;
 		newspaper3.enabled = false;
 		newspaper4.enabled = false;
 
-		//animationObj = GameObject.Find("Animation");
-		//animationObj.SetActive(false);
-		//animation = gameObject.GetComponent<Animation>();
-
-		//x.enabled = false;
+		
 		button.enabled = false;
 
-		//newspaperWhole.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -67,24 +58,28 @@ public class Collectibles : MonoBehaviour
 					counter++;
 					collectible1.SetActive(false);
 					newspaper1.enabled = true;
+					audioSource.Play();
 				}
 				if (hit.transform != null && (hit.collider.name == "collectible2"))
 				{
 					counter++;
 					collectible2.SetActive(false);
 					newspaper2.enabled = true;
+					audioSource.Play();
 				}
 				if (hit.transform != null && (hit.collider.name == "collectible3"))
 				{
 					counter++;
 					collectible3.SetActive(false);
-					newspaper3.enabled = true;
+					newspaper3.enabled = true;					audioSource.Play();
+
 				}
 				if (hit.transform != null && (hit.collider.name == "collectible4"))
 				{
 					counter++;
 					newspaper4.enabled = true;
 					collectible4.SetActive(false);
+					audioSource.Play();
 				}
 				if (counter == 4)
 				{
