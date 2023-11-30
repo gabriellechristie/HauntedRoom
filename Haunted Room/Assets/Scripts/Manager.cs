@@ -24,5 +24,9 @@ public class Manager : MonoBehaviour
             audioSource.Play();
             currentN.GetComponent<Prop>().location.OnArrival();
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

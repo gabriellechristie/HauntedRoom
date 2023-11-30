@@ -12,21 +12,30 @@ public class FlickerControl : MonoBehaviour
     //private float thunderDelay;
     public AudioSource audioSource;
     public Camera cam;
+
+    //colors
+    Color greyBlue;
+    Color flash;
     private void Start()
     {
-        
-        cam.backgroundColor = Color.black;
+        cam = GameObject.Find("MainCamera").GetComponent<Camera>();
+        ColorUtility.TryParseHtmlString("#2F3B4D", out greyBlue);
+        ColorUtility.TryParseHtmlString("#FFFFFF", out flash);
+        cam.backgroundColor = greyBlue;
+
+        //cam.backgroundColor = new Color(47, 59, 77);
     }
     void Update()
     {
         if (this.gameObject.GetComponent<Light>().enabled == false)
         {
-            cam.backgroundColor = Color.black;
+            cam.backgroundColor = greyBlue;
         }
-        else
+        if (this.gameObject.GetComponent<Light>().enabled == true)
         {
-            cam.backgroundColor = new Color(114, 210, 255);
+            cam.backgroundColor = flash;
         }
+
         if (isFlickering == false) //immediately jump right back into the coroutine
         {
             StartCoroutine(FlickeringLight());
