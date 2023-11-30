@@ -71,7 +71,8 @@ public class Collectibles : MonoBehaviour
 				{
 					counter++;
 					collectible3.SetActive(false);
-					newspaper3.enabled = true;					audioSource.Play();
+					newspaper3.enabled = true;					
+					audioSource.Play();
 
 				}
 				if (hit.transform != null && (hit.collider.name == "collectible4"))

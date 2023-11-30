@@ -8,6 +8,8 @@ public class NewspaperButton : MonoBehaviour
     //public Image newspaperWhole;
     public GameObject notes;
     //Image x;
+    public AudioSource audioSource;
+
     private void Start()
     {
         //newspaperWhole.enabled = false;
@@ -29,7 +31,10 @@ public class NewspaperButton : MonoBehaviour
     }*/
     public void Open()
     {
+        audioSource.Play();
+
         notes.SetActive(true);
+
        // x.enabled = true;
         //newspaperWhole.enabled = true;
     }

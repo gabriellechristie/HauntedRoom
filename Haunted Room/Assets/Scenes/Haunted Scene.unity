@@ -7630,9 +7630,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3e6765589d3c8f349bbd9cc0016c87b4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 279b8c3220b19364b8dcc0ed43e817e1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -21636,6 +21636,14 @@ PrefabInstance:
     - target: {fileID: 6640837755134980181, guid: 50ca9ce96b7182749a2caa47cf390f61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827611775725660143, guid: 50ca9ce96b7182749a2caa47cf390f61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827611775725660143, guid: 50ca9ce96b7182749a2caa47cf390f61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00031
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39791,6 +39799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notes: {fileID: 769991579}
+  audioSource: {fileID: 740130976}
 --- !u!114 &1254967728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42405,7 +42414,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f3d726663a7cfc34fb2eb1e4dec4c988, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -49607,10 +49616,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candlelong (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 4935157295763302615, guid: 7ace08f84ab55574e9626699c7b882b9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1fe7e6c883ebd0c4aabbaaa4ca5c14b6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57733,6 +57738,14 @@ PrefabInstance:
     - target: {fileID: 1500979548123241274, guid: 7ace08f84ab55574e9626699c7b882b9, type: 3}
       propertyPath: m_Name
       value: Candlelong (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644223764302351291, guid: 7ace08f84ab55574e9626699c7b882b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.699081
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644223764302351291, guid: 7ace08f84ab55574e9626699c7b882b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0009
       objectReference: {fileID: 0}
     - target: {fileID: 4935157295763302615, guid: 7ace08f84ab55574e9626699c7b882b9, type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -7,7 +7,7 @@ public class OutlineObj : MonoBehaviour
 {
     private Transform highlight;
     private RaycastHit raycastHit;
-    private Transform selection;
+    private Transform select;
 
     private void Update()
     {
@@ -20,7 +20,7 @@ public class OutlineObj : MonoBehaviour
         if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out raycastHit))
         {
             highlight = raycastHit.transform;
-            if (highlight.CompareTag("Select") && highlight != selection)
+            if (highlight.CompareTag("Select") && highlight != select)
             {
                 if (highlight.gameObject.GetComponent<Outline>() != null)
                 {
@@ -39,26 +39,26 @@ public class OutlineObj : MonoBehaviour
             }
         }
 
-       /* if (Input.GetMouseButtonDown(0))
-        {
-            if (highlight)
-            {
-                if (selection != null)
-                {
-                    selection.gameObject.GetComponent<Outline>().enabled = false;
-                }
-                selection = raycastHit.transform;
-                selection.gameObject.GetComponent<Outline>().enabled = true;
-                highlight = null;
-            }
-            else
-            {
-                if (selection)
-                {
-                    selection.gameObject.GetComponent<Outline>().enabled = false;
-                    selection = null;
-                }
-            }
-        }*/
+        /* if (Input.GetMouseButtonDown(0))
+         {
+             if (highlight)
+             {
+                 if (select != null)
+                 {
+                     select.gameObject.GetComponent<Outline>().enabled = false;
+                 }
+                 select = raycastHit.transform;
+                 select.gameObject.GetComponent<Outline>().enabled = true;
+                 highlight = null;
+             }
+             else
+             {
+                 if (select)
+                 {
+                     select.gameObject.GetComponent<Outline>().enabled = false;
+                     select = null;
+                 }
+             }
+         }*/
     }
 }
